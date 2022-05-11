@@ -8,7 +8,7 @@ def moveFile(fileDir,tarDir,picknumber):
 
 if __name__ == '__main__':
     fileDir = "./contrast/"    #源图片文件夹路径
-    tarDir  = "./pretrain/"       #移动到新的文件夹路径
+    tarDir  = "./train/"       #移动到新的文件夹路径
     count = os.listdir(fileDir)
     print('All content numbers is',len(count))
     folder = len(count)//50
